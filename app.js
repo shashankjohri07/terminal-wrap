@@ -438,7 +438,7 @@ function getResultText(cmd) {
             resultText += helpResultText;
             break;
         case BIO_CMDS.includes(cmd):
-            resultText += "Here's a quick info about Pratham. " + BIO_RESULT;
+            resultText += "Here's a quick info about Shashank. " + BIO_RESULT;
             break;
         case CONTACT_CMDS.includes(cmd):
             resultText += CONTACT_RESULT;
